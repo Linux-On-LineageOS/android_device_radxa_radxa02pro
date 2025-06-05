@@ -39,3 +39,4 @@ include kernel/amlogic/kernel-modules/dhd-driver/firmware/wifi/wifi.mk
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
